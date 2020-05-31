@@ -117,6 +117,10 @@ Para los casos de prueba, donde aumentamos el numero de procesos, mientras mante
 
 # 5. Video
 
+#### Youtube: https://www.youtube.com/watch?v=L-pQ6vP7zMA
+#### MicrosoftStream: https://web.microsoftstream.com/video/49ddfb31-c062-4de3-b642-b1a6dd5ae251
+*Nota: Es el mismo video en ambas plataformas*
+
 # 6. Bibliografia
 ###### [1] http://rosalind.info/problems/rna/
 ###### [2] https://es.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/overview-of-transcription
