@@ -105,14 +105,25 @@ Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la c
 - ***Eficiencia E(P) = 1.027 / 5 = 0.205***
 
 ### 4.2. Conclusiones
-![](Imagenes/1secuenciaNprocesadores.PNG) ![](Imagenes/NsecuenciasNprocesadores.PNG) 
+Luego de realizar los análisis de SpeedUp y de Eficiencia podemos evidenciar inicialmente, que es evidente que el tiempo de ejecución es menor para la solución paralela.
 
-# N. Bibliografia
-[1] http://rosalind.info/problems/rna/
-[2] https://es.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/overview-of-transcription
-[3] https://www.genome.gov/es/genetics-glossary/ACGT
-[4] https://mpi4py.readthedocs.io/en/stable/
-[5] https://es.wikipedia.org/wiki/MIMD
-[6] https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html
-[7] https://www.bioinformatics.org/sms2/random_dna.html
+Para los casos de prueba, donde aumentamos el numero de secuencias a transcribir, proporcionalmente al numero de procesadores, evidenciamos que a medida que se aumenta el numero de procesadores el SpeedUp es mayor, a excepción de cuando tenemos 2 procesadores, que inesperadamente tiene el segundo mejor SpeedUP. Sin embargo, cuando vemos la eficiencia, identificamos que es más eficiente (con un 0.87) tener 2 procesadores para realizar la transcripción, que tener 3, 4 o 5, siendo este último el menos eficiente
+
+![](Imagenes/NsecuenciasNprocesadores.PNG) 
+
+Para los casos de prueba, donde aumentamos el numero de procesos, mientras mantenemos solamente 1 secuencia a transcribir, evidenciamos que el SpeedUp es menor a medida que aumentan los procesadores. Esto se debe a que con una sola secuiencia a transcribir, la solución serial siempre se demora aproximadamente lo mismo, mientras para la solución paralela simplemente estamos dividiendo la secuencia y aumentando el numero de comunicaciones necesarias, es decir, aunque se demora menos que la solución secuencial, para este caso, tener más procesadores no es tan beneficioso. Lo mismo pasa con la eficiencia, tenemos una eficiencia más baja para todos los casos, y el tener 2 procesadores sigue siendo la mejor alternativa.
+
+![](Imagenes/1secuenciaNprocesadores.PNG) 
+
+# 5. Video
+
+# 6. Bibliografia
+####### [1] http://rosalind.info/problems/rna/
+####### [2] https://es.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/overview-of-transcription
+####### [3] https://www.genome.gov/es/genetics-glossary/ACGT
+####### [4] https://mpi4py.readthedocs.io/en/stable/
+####### [5] https://es.wikipedia.org/wiki/MIMD
+####### [6] https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html
+####### [7] https://www.bioinformatics.org/sms2/random_dna.html
+####### [8] https://es.wikipedia.org/wiki/Speedup
 
