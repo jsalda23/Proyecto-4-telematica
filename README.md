@@ -15,4 +15,4 @@ Este problema consiste en realizar la transcripción de ADN a ARN. Está transcr
 * Terminación: Una vez transcritas, estas secuencias provocan que el transcrito sea liberado de la ARN polimerasa. [2]
 Una cadena ADN está compuesta por adenina (A), citosina (C), guanina (G) y timina (T), por lo tanto, para su fácil manejo y comprensión, se trabaja con sus siglas A, C, G y T. La cadena ARN a diferencia de la ADN está compuesta por A, C, G y uracilo (U). Sin embargo, cuando se pasa de ADN a ARN la T cambia por A, la A cambia por U, la C cambia por G, y la G cambia por C, así como se evidencia en la siguiente imagen:
 
-![](Imagenes/ARN polimerasa.PNG)
+![](Imagenes/ARNpolimerasa.PNG)
