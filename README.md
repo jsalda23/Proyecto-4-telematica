@@ -27,5 +27,17 @@ __python3 Trans_ADN-RNA_SL-Secuencial.py__
 
 ## 3. Solución Paralela
 Para la solución serial se decidió usuar la libreria mpi4py (https://mpi4py.readthedocs.io/en/stable/index.html) la cual nos permite hacer uso de multiples procesadores, ademas de ser adecuado para trabajar con memoria compartida.
-Se evaluaron diferentes maneras de realizar una solución usando paralelismo, sin embargo, se determinó que se usaría la técnica SIMD _(Single Instruction Multiple Data)_.
+Se evaluaron diferentes maneras de realizar una solución usando paralelismo, sin embargo, se determinó que se usaría la técnica SIMD _(Single Instruction Multiple Data)_. Esta técnica consiste en utilizar diferentes procesadores para ejecutar la misma función sobre diferentes conjuntos de datos. Al trabajar con grandes cadenas de ADN (secuencias de 10,000,000 de caracteres), sin embargo, siempre efectuando el mismo procedimiento, se decidió que está era la mejor solución. Por lo tanto la solución trabaja con 5 nodos, cada nodo con una secuencia de ADN diferente.
 
+Esta soluición se ejecuta con el comando:
+
+__mpirun -n 5 python3 Trans_ADN-RNA_SL-Paralelo.py__
+
+### Nota
+Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la carpeta "datasets". Estas secuencias fueron generadas aleatoriamente desde la página "https://www.bioinformatics.org/sms2/random_dna.html" con una longitud de 10,000,000 de caracteres cada una.
+
+## 4. Rendimiento
+### Escenarios:
+
+#### 4.1: 1 procesador vs 2 procesadores -> 2 secuencias de DNA
+2 archivos - 1pVs2p
