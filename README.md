@@ -43,6 +43,11 @@ Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la c
 #### 4.1: 1 procesador vs 2 procesadores -> 2 secuencias de DNA
 ![](Imagenes/2%20archivos%20-%201pVs2p.PNG)
 
+Tiempo(1 procesador) = 3.947s
+Tiempo(2 procesadores) = 2.268s
+##### *SpeedUp Relativo = 3.947s / 2.268s = 1.7403*
+##### *Eficiencia E(P) = 1.7403 / 2 = 0.870*
+
 #### 4.2: 1 procesador vs 3 procesadores -> 3 secuencias de DNA
 ![](Imagenes/3%20archivos%20-%201pVs3p.PNG)
 
@@ -51,4 +56,15 @@ Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la c
 
 #### 4.4: 1 procesador vs 5 procesadores -> 5 secuencias de DNA
 ![](Imagenes/5%20archivos%20-%201pVs5p.PNG)
+
+
+
+# N. Bibliografia
+[1] http://rosalind.info/problems/rna/
+[2] https://es.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/overview-of-transcription
+[3] https://www.genome.gov/es/genetics-glossary/ACGT
+[4] https://mpi4py.readthedocs.io/en/stable/
+[5] https://es.wikipedia.org/wiki/MIMD
+[6] https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html
+[7] https://www.bioinformatics.org/sms2/random_dna.html
 
