@@ -105,7 +105,7 @@ Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la c
 - ***Eficiencia E(P) = 1.027 / 5 = 0.205***
 
 ### 4.2. Conclusiones
-
+![](Imagenes/1secuenciaNprocesadores.PNG) ![](Imagenes/NsecuenciasNprocesadores.PNG) 
 
 # N. Bibliografia
 [1] http://rosalind.info/problems/rna/
