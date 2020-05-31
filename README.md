@@ -26,5 +26,5 @@ Esta soluición se ejecuta con el comando:
 _python3 Trans_ADN-RNA_SL-Secuencial.py_
 
 ## 3. Solución Paralela
-Para la solución serial se decidió usuar la libreria mpi4py (https://mpi4py.readthedocs.io/en/stable/index.html)
+Para la solución serial se decidió usuar la libreria mpi4py (https://mpi4py.readthedocs.io/en/stable/index.html) la cual nos permite hacer uso de multiples procesadores, ademas de ser adecuado para trabajar con memoria compartida
 
