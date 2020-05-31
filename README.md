@@ -40,4 +40,5 @@ Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la c
 ### Escenarios:
 
 #### 4.1: 1 procesador vs 2 procesadores -> 2 secuencias de DNA
-2 archivos - 1pVs2p
+![](2%20archivos%20-%201pVs2p.PNG)
+
