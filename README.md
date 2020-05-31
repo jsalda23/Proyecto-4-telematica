@@ -22,5 +22,6 @@ Una cadena ADN está compuesta por adenina (A), citosina (C), guanina (G) y timi
 La solución serial se encuentra en el archivo Scripts, bajo el nombre "Trans_ADN-RNA_SL-Secuencial". Consiste en una solución simple, donde se inicia con la lectura de todos los ficheros de texto (los cuales contienen las secuencias de ADN) y posteriormente su conversión. Para está solución simple el programa coge los archivos de texto, uno por uno, linea por linea y realiza la transcripción.
 
 Esta soluición se ejecuta con el comando:
-Markup : python3 Trans_ADN-RNA_SL-Secuencial.py
+
+_python3 Trans_ADN-RNA_SL-Secuencial.py_
 
