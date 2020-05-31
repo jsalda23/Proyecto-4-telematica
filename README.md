@@ -38,9 +38,9 @@ Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la c
 
 ## 4. Rendimiento
 
-### Escenarios:
+### 4.1. Escenarios:
 
-#### 4.1: 1 procesador vs 2 procesadores -> 2 secuencias de DNA
+#### 4.1.1. 1 procesador vs 2 procesadores -> 2 secuencias de DNA
 ![](Imagenes/2%20archivos%20-%201pVs2p.PNG)
 
 - Tiempo(1 procesador) = 3.947s
@@ -48,29 +48,63 @@ Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la c
 - ***SpeedUp Relativo = 3.947s / 2.268s = 1.740***
 - ***Eficiencia E(P) = 1.7403 / 2 = 0.870***
 
-#### 4.2: 1 procesador vs 3 procesadores -> 3 secuencias de DNA
+#### 4.1.2. 1 procesador vs 3 procesadores -> 3 secuencias de DNA
 ![](Imagenes/3%20archivos%20-%201pVs3p.PNG)
 
 - Tiempo(1 procesador) = 5.926s
 - Tiempo(3 procesadores) = 4.091s
 - ***SpeedUp Relativo = 5.926s / 4.091s = 1.448***
-- ***Eficiencia E(P) = 1.448 / 2 = 0.724***
+- ***Eficiencia E(P) = 1.448 / 3 = 0.482***
 
-#### 4.3: 1 procesador vs 4 procesadores -> 4 secuencias de DNA
+#### 4.1.3. 1 procesador vs 4 procesadores -> 4 secuencias de DNA
 ![](Imagenes/4%20archivos%20-%201pVs4p.PNG)
 
 - Tiempo(1 procesador) = 7.236s
 - Tiempo(4 procesadores) = 4.432s
 - ***SpeedUp Relativo = 7.236s / 4.432s = 1.632***
-- ***Eficiencia E(P) = 1.632 / 2 = 0.816***
+- ***Eficiencia E(P) = 1.632 / 4 = 0.408***
 
-#### 4.4: 1 procesador vs 5 procesadores -> 5 secuencias de DNA
+#### 4.1.4. 1 procesador vs 5 procesadores -> 5 secuencias de DNA
 ![](Imagenes/5%20archivos%20-%201pVs5p.PNG)
 
 - Tiempo(1 procesador) = 11.265s
 - Tiempo(5 procesadores) = 5.896s
 - ***SpeedUp Relativo = 11.265s / 5.986s = 1.882***
-- ***Eficiencia E(P) = 1.882 / 2 = 0.940***
+- ***Eficiencia E(P) = 1.882 / 5 = 0.376***
+
+#### 4.1.5. 1 procesador vs 2 procesadores -> 1 secuencia de DNA
+![](Imagenes/)
+
+- Tiempo(1 procesador) = 
+- Tiempo(5 procesadores) = 
+- ***SpeedUp Relativo =  /  = 
+- ***Eficiencia E(P) = / 2 = ***
+
+#### 4.1.6. 1 procesador vs 3 procesadores -> 1 secuencia de DNA
+![](Imagenes/)
+
+- Tiempo(1 procesador) = 
+- Tiempo(5 procesadores) = 
+- ***SpeedUp Relativo =  /  = 
+- ***Eficiencia E(P) = / 3 = ***
+
+#### 4.1.7. 1 procesador vs 4 procesadores -> 1 secuencia de DNA
+![](Imagenes/)
+
+- Tiempo(1 procesador) = 
+- Tiempo(5 procesadores) = 
+- ***SpeedUp Relativo =  /  = 
+- ***Eficiencia E(P) = / 4 = ***
+
+#### 4.1.8. 1 procesador vs 5 procesadores -> 1 secuencia de DNA
+![](Imagenes/)
+
+- Tiempo(1 procesador) = 
+- Tiempo(5 procesadores) = 
+- ***SpeedUp Relativo =  /  = 
+- ***Eficiencia E(P) = / 2 = ***
+
+### 4.2. Conclusiones
 
 
 # N. Bibliografia
