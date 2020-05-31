@@ -45,8 +45,8 @@ Para realizar las pruebas de ambas soluciones se usaron las 5 secuencias de la c
 
 - Tiempo(1 procesador) = 3.947s
 - Tiempo(2 procesadores) = 2.268s
-- *SpeedUp Relativo = 3.947s / 2.268s = 1.7403*
-- *Eficiencia E(P) = 1.7403 / 2 = 0.870*
+- ***SpeedUp Relativo = 3.947s / 2.268s = 1.7403***
+- ***Eficiencia E(P) = 1.7403 / 2 = 0.870***
 
 #### 4.2: 1 procesador vs 3 procesadores -> 3 secuencias de DNA
 ![](Imagenes/3%20archivos%20-%201pVs3p.PNG)
