@@ -1,23 +1,23 @@
 import sys
-from os.path import isfile, join
-from os import listdir
-from datetime import datetime
 import os
+from os import listdir
+from os.path import isfile, join
+from datetime import datetime
 
 def main():
     print(os.getcwd())
     start = datetime.now()
     fichero = (os.getcwd() + '\\') ##  "C:\\Users\\JuanDiego\\Desktop\\Topicos_Telematica\\Proyecto4\\" #sys.argv[1] #1
     
-    fna = [archivotexto for archivotexto in listdir(fichero) if archivotexto[-4:] == ".txt"]  #Selecciona los archivos .txt 
+    datasets = [archivotexto for archivotexto in listdir(fichero) if archivotexto[-4:] == ".txt"]  #Selecciona los archivos .txt 
     
-    for fnafile in fna: #Ciclo para que haga todos los archivos .txt
-        fileName =  fichero + fnafile
+    for archivodna in datasets: #Ciclo para que haga todos los archivos .txt
+        fileName =  fichero + archivodna
         print("File: " + fileName) #Ruta archivos TXT
-        f = open(fileName, 'r') #Crea string de texto 
-        res = open(os.getcwd() + '\\opt\\dna\\results\\' + fnafile + '.result', 'w') ##Crea resultado en la carpeta indicada
-        resLine = ""
-        print(resLine)
+        f = open(fileName, 'r') #Lee string de texto 
+        resultado = open(os.getcwd() + '\\resultadosRNA\\resultadoRNA_' + archivodna, 'w') ##Crea resultado en la carpeta indicada con el nombre indicado
+        resultLine = ""
+        print(resultLine)
         for line in f:
             #print(line)
             if line[0] == '>': continue
@@ -25,24 +25,25 @@ def main():
             for i in line:
             #print(i)
                 if i == 't':
-                    resLine += 'a'
+                    resultLine += 'a'
                 elif i == 'a':
-                    resLine += 'u'
+                    resultLine += 'u'
                 elif i == 'c':
-                    resLine += 'g'
+                    resultLine += 'g'
                 elif i == 'g':
-                    resLine += 'c'  
+                    resultLine += 'c'  
                 else:
-                    resLine += i
-                resLine += '\n'
-        res.write(resLine)
-        f.close()   
-        res.close()
+                    resultLine += i
+            resultLine += '\n'
+        resultado.write(resultLine)
+        #f.close()   
+        resultado.close()
   
     end = datetime.now()
     total = end - start
-    total_time = total.seconds
-    print("Total time: " + str(total_time) + "s")
+    tiempo_total = total.seconds
+    print("Tiempo de ejecución: " + str(tiempo_total) + "s")
+    print("Numero de archivos transcritos: " + str(len(datasets)))
     #print("Hola")
 
 if __name__ == '__main__':
