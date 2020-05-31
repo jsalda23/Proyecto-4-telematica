@@ -118,12 +118,12 @@ Para los casos de prueba, donde aumentamos el numero de procesos, mientras mante
 # 5. Video
 
 # 6. Bibliografia
-####### [1] http://rosalind.info/problems/rna/
-####### [2] https://es.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/overview-of-transcription
-####### [3] https://www.genome.gov/es/genetics-glossary/ACGT
-####### [4] https://mpi4py.readthedocs.io/en/stable/
-####### [5] https://es.wikipedia.org/wiki/MIMD
-####### [6] https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html
-####### [7] https://www.bioinformatics.org/sms2/random_dna.html
-####### [8] https://es.wikipedia.org/wiki/Speedup
+###### [1] http://rosalind.info/problems/rna/
+###### [2] https://es.khanacademy.org/science/biology/gene-expression-central-dogma/transcription-of-dna-into-rna/a/overview-of-transcription
+###### [3] https://www.genome.gov/es/genetics-glossary/ACGT
+###### [4] https://mpi4py.readthedocs.io/en/stable/
+###### [5] https://es.wikipedia.org/wiki/MIMD
+###### [6] https://rabernat.github.io/research_computing/parallel-programming-with-mpi-for-python.html
+###### [7] https://www.bioinformatics.org/sms2/random_dna.html
+###### [8] https://es.wikipedia.org/wiki/Speedup
 
