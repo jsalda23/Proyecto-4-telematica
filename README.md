@@ -23,8 +23,9 @@ La solución serial se encuentra en el archivo Scripts, bajo el nombre "Trans_AD
 
 Esta soluición se ejecuta con el comando:
 
-_python3 Trans_ADN-RNA_SL-Secuencial.py_
+__python3 Trans_ADN-RNA_SL-Secuencial.py__
 
 ## 3. Solución Paralela
-Para la solución serial se decidió usuar la libreria mpi4py (https://mpi4py.readthedocs.io/en/stable/index.html) la cual nos permite hacer uso de multiples procesadores, ademas de ser adecuado para trabajar con memoria compartida
+Para la solución serial se decidió usuar la libreria mpi4py (https://mpi4py.readthedocs.io/en/stable/index.html) la cual nos permite hacer uso de multiples procesadores, ademas de ser adecuado para trabajar con memoria compartida.
+Se evaluaron diferentes maneras de realizar una solución usando paralelismo, sin embargo, se determinó que se usaría la técnica SIMD _(Single Instruction Multiple Data)_.
 
