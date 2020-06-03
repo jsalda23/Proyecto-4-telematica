@@ -22,15 +22,15 @@ Una cadena ADN está compuesta por adenina (A), citosina (C), guanina (G) y timi
 La solución serial se encuentra en el archivo Scripts, bajo el nombre "Trans_ADN-RNA_SL-Secuencial". Consiste en una solución simple, donde se inicia con la lectura de todos los ficheros de texto (los cuales contienen las secuencias de ADN) y posteriormente su conversión. Para está solución simple el programa coge los archivos de texto, uno por uno, linea por linea y realiza la transcripción.
 
 Esta soluición se ejecuta con el comando:
-
+__cd Proyecto4__
 __python3 Trans_ADN-RNA_SL-Secuencial.py__
 
 ## 3. Solución Paralela
 Para la solución serial se decidió usuar la libreria mpi4py (https://mpi4py.readthedocs.io/en/stable/index.html) la cual nos permite hacer uso de multiples procesadores, ademas de ser adecuado para trabajar con memoria compartida.
 Se evaluaron diferentes maneras de realizar una solución usando paralelismo, sin embargo, se determinó que se dividirían las cadenas de ADN (secuencias de 10,000,000 de caracteres), así, cada nodo realiza la transcripción de una secuencia de ADN. Por lo tanto la solución trabaja con 5 nodos, cada nodo con una secuencia de ADN diferente.
 
-Esta soluición se ejecuta con el comando:
-
+Esta soluición se ejecuta con los comandos:
+__cd Proyecto4__
 __mpirun -n 5 python3 Trans_ADN-RNA_SL-Paralelo.py__
 
 ### Nota
